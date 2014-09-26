@@ -5,7 +5,7 @@ VERSION := $(shell grep "const Version " version.go | sed -E 's/.*"(.+)"$$/\1/')
 BIN_NAME=$(shell basename $(abspath ./))
 
 # Project owner for bintray
-OWNER=wolfeidau
+OWNER=grengojbo
 
 # Project name for bintray
 PROJECT_NAME=$(shell basename $(abspath ./))
@@ -33,6 +33,9 @@ clean:
 	@test ! -e bin/${BIN_NAME} || rm bin/${BIN_NAME}
 
 test:
-	go test ./...
+	go test -v ./...
 
-.PHONY: build dist clean test
+run:
+	go run privat24go.go
+
+.PHONY: build dist clean test run
