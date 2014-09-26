@@ -1,0 +1,321 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="application/vnd.ms-excel; charset=UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=100">
+      <title>Выписки</title><style type="text/css">
+                    @page
+                    {margin:.98in .79in .98in .79in;
+                    mso-header-margin:.5in;
+                    mso-footer-margin:.5in;}
+                    tr
+                    {mso-height-source:auto;}
+                    col
+                    {mso-width-source:auto;}
+                    br
+                    {mso-data-placement:same-cell;}
+                    .style0
+                    {mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    white-space:nowrap;
+                    mso-rotate:0;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:204;
+                    border:none;
+                    mso-protection:locked visible;
+                    mso-style-name:Обычный;
+                    mso-style-id:0;}
+                    td
+                    {mso-style-parent:style0;
+                    padding-top:1px;
+                    padding-right:1px;
+                    padding-left:1px;
+                    mso-ignore:padding;
+                    color:windowtext;
+                    font-size:10.0pt;
+                    font-weight:400;
+                    font-style:normal;
+                    text-decoration:none;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:204;
+                    mso-number-format:General;
+                    text-align:general;
+                    vertical-align:bottom;
+                    border:none;
+                    mso-background-source:auto;
+                    mso-pattern:auto;
+                    mso-protection:locked visible;
+                    white-space:nowrap;
+                    mso-rotate:0;}
+                    .xl24
+                    {mso-style-parent:style0;
+                    text-align:center;}
+                    .xl25
+                    {mso-style-parent:style0;
+                    font-size:8.0pt;
+                    font-weight:700;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:center;
+                    vertical-align:middle;
+                    border-top:0.5pt solid windowtext;
+                    border-right:none;
+                    border-bottom:0.5pt solid windowtext;
+                    border-left:0.5pt solid windowtext;
+                    background:silver;
+                    mso-pattern:auto none;
+                    white-space:normal;}
+                    .xl26
+                    {mso-style-parent:style0;
+                    font-size:8.0pt;
+                    font-weight:700;
+                    width: 800px;
+                    mso-width-source:auto none;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:center;
+                    vertical-align:middle;
+                    border-top:0.5pt solid windowtext;
+                    border-right:none;
+                    border-bottom:0.5pt solid windowtext;
+                    border-left:0.5pt solid windowtext;
+                    background:silver;
+                    mso-pattern:auto none;
+                    white-space:normal;}
+                    .xl27
+                    {mso-style-parent:style0;
+                    font-size:8.0pt;
+                    font-weight:700;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:center;
+                    vertical-align:middle;
+                    border:0.5pt solid windowtext;
+                    background:silver;
+                    mso-pattern:auto none;
+                    white-space:normal;}
+                    .xl28
+                    {mso-style-parent:style0;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:center;
+                    white-space:normal;}
+                    .xl29
+                    {mso-style-parent:style0;
+                    font-size:9.0pt;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:left;
+                    white-space:normal;
+                    mso-number-format:"\@";}
+                    .xl30
+                    {mso-style-parent:style0;
+                    font-size:9.0pt;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:left;
+                    white-space:normal;
+                    mso-number-format:"Short Date";}
+                    .xl31
+                    {mso-style-parent:style0;
+                    font-size:9.0pt;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    text-align:left;
+                    white-space:normal;
+                    mso-number-format:"hh\:mm\:ss";}
+                    .xl32
+                    {mso-style-parent:style0;
+                    font-size:9.0pt;
+                    font-family:'Arial Unicode MS', Georgia, Arial;
+                    font-weight:700;
+                    mso-generic-font-family:auto;
+                    mso-font-charset:0;
+                    mso-number-format:Fixed;
+                    text-align:right;
+                    white-space:normal;}
+                </style></head>
+   <body>
+      <table cellspacing="0" cellpadding="0" border="0" width="100%">
+         <tr class="xl24">
+            <th class="xl29" width="1500" style="font-size:3.6mm; font-weight:700; text-align: center; border-bottom:1.0pt solid windowtext;" colspan="11">Выписка по счету № 12345678901234 "РОГА И КОПЫТА" c 12.09.2014 по 16.09.2014.</th>
+         </tr>
+         <tr class="xl24">
+            <th class="xl28" width="1500" height="10" colspan="11">
+               &nbsp;
+               
+            </th>
+         </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr class="xl24">
+            <th class="xl25">№</th>
+            <th class="xl25">Дата проводки</th>
+            <th class="xl25">Время проводки</th>
+            <th class="xl25" nowrap>Сумма</th>
+            <th class="xl25">Валюта</th>
+            <th class="xl26">Назначение платежа</th>
+            <th class="xl25">ЕГРПОУ контрагента</th>
+            <th class="xl25">Наименование контрагента</th>
+            <th class="xl25">Счет контрагента</th>
+            <th class="xl25">МФО контрагента</th>
+            <th class="xl27">Референс</th>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">E0916RL899</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">16.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">09:34:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">Вiдновлення картки, Невідомий Олег, путін геть row 0</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">14360570</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">Карта для выплат_S_181_   _</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">26256060050877</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">335496</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">SAMBE0916RL899.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">1113499SB</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">17:13:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">40.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">row 1 ПОСЛ СМС ПОВIДОМЛЕННЯ ПЕРЕМОГА У;;ПОСЛ СМС ПОВIДОМЛЕННЯ;МОБ ТЕЛ 0991234567;</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">09322277</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">IНШI ГОТ.ПЛАТ.(ЗВЯЗ.РАД.КАБ.Т/Б)</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">2902290840600</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">322669</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">HSKLE0915L1ZFY.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">1113371SB</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">17:13:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">40.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">row 2  ВІРНІЙ Ні
+               
+            </td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">09322277</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">IНШI ГОТ.ПЛАТ.(ЗВЯЗ.РАД.КАБ.Т/Б)</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">2902290840600</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">322669</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">HSKLE0915L1ZGR.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">1113369SB</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">17:13:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">50.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+    <td class="xl29" style="border-left:0.5p"> row 3 НОМЕР IНДИВ КАРТ.ДОСТУПУ 3633872 МОБ ТЕЛ 0971234567 ВІРНІЙ _;;НОМЕР IНДИВ КАРТ.ДОСТУПУ
+               3633872 МОБ ТЕЛ 0971234567;0971234567;
+            </td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">09322277</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">IНШI ГОТ.ПЛАТ.(ЗВЯЗ.РАД.КАБ.Т/Б)</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">2902290840600</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">322669</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">HSKLE0915L1ZGS.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">03-1/3967</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">14:50:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">row 4 РКО плата населення за 0003601627 ПРИЗВІЩЕ ВАЛЕРIЯ  7-б вiдн. зг. картки -15,00 за
+               11.09.2014
+            </td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">01189979</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">Пiвденний поштамт КМД УДППЗ *Укрпош</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">2600331422928</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">322669</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">HSKLE0915L10L2.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">E0915F4XGP</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">13:07:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">49.50</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;"> row 5 LIQPAY 42733782 DESCR Активацiя послуг Order</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">14360570</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">РАСЧЕТЫ ПО КАРТАМ (UAH)</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">29246827509065</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">305299</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">SAMBE0915F4XGP.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">@2PL135616</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">15.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">10:34:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">50.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">row 6 номер ?ндив?дуальної картки доступу 2477267 реєст в моб сист +380981234567, Дивчина
+               Єва
+            </td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">14360570</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">Транз.сч._ DN, DG, DZ</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">29023866100110</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">305299</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">D2P1E0915A3MLA.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">5702763/14</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">12.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">17:15:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">40.00</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">row 7 Номер iндивiдуальної картки доступу 2802309.Надання послуг SMS повiдомлення  моб.тел.+380951234567;Невідома
+               Дiана. Платник -     Невідома Юлiя Анатолiївна .
+            </td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">21665382</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">Кред. заборг. за прийнятi плат.</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">2902201</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">300647</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">HSKLE0912L22FV.</td>
+         </tr>
+         <tr class="xl24">
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">PB49o2tyvp</td>
+            <td class="xl30" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">24.09.2014</td>
+            <td class="xl31" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">21:50:00</td>
+            <td class="xl32" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">-2.55</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">UAH</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;"> row 8 Комiсiя за проведення платежу N 1 вiд 24.09.2014 на суму 1000000.32 в пiсляоперацiйний
+               час, згiдно договору банкiвського рахунку вiд 16.11.2012, без ПДВ.
+            </td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">14360570</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">TPB КОМ.ПО ПЛАТЕЖАМ В ПОСЛЕОПЕРАЦ.ВРЕМ</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">61101909000433</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">320649</td>
+            <td class="xl29" style="border-left:0.5pt solid windowtext;border-right:0.5pt solid windowtext;border-bottom:0.5pt solid windowtext;">TZ00E0924BT8BY.</td>
+         </tr>
+         <tr class="xl24">
+            <th class="xl25">№</th>
+            <th class="xl25">Дата проводки</th>
+            <th class="xl25">Время проводки</th>
+            <th class="xl25" nowrap>Сумма</th>
+            <th class="xl25">Валюта</th>
+            <th class="xl26">Назначение платежа</th>
+            <th class="xl25">ЕГРПОУ контрагента</th>
+            <th class="xl25">Наименование контрагента</th>
+            <th class="xl25">Счет контрагента</th>
+            <th class="xl25">МФО контрагента</th>
+            <th class="xl27">Референс</th>
+         </tr>
+      </table>
+   </body>
+</html>
