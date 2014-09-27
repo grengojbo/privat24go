@@ -1,4 +1,4 @@
-privat24go [![Coverage Status](https://coveralls.io/repos/grengojbo/privat24go/badge.png)](https://coveralls.io/r/grengojbo/privat24go) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/grengojbo/privat24go/blob/master/LICENSE) [![build status](https://secure.travis-ci.org/privat24go/goquery.png)](http://travis-ci.org/grengojbo/privat24go)
+privat24go [![Coverage Status](https://coveralls.io/repos/grengojbo/privat24go/badge.png)](https://coveralls.io/r/grengojbo/privat24go) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/grengojbo/privat24go/blob/master/LICENSE) [![build status](https://secure.travis-ci.org/grengojbo/privat24go.png)](http://travis-ci.org/grengojbo/privat24go)
 ====
 
 ## Описание
