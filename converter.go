@@ -4,15 +4,10 @@ import (
 	"bufio"
 	"strconv"
 	"strings"
-	// "time"
 
 	"os"
 
-	// github.com/opesun/goquery
-	// github.com/opesun/goquery/exp/html
-	// "github.com/kr/pretty"
-	"github.com/puerkitobio/goquery"
-	// "code.google.com/p/go.net/html"
+	"github.com/grengojbo/goquery"
 )
 
 // Load Privat24 ordering file -> c2bstatements.xls
