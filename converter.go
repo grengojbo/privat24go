@@ -7,7 +7,7 @@ import (
 
 	"os"
 
-	"github.com/puerkitobio/goquery"
+	"github.com/grengojbo/goquery"
 )
 
 // Load Privat24 ordering file -> c2bstatements.xls
