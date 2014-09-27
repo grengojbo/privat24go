@@ -36,6 +36,6 @@ test:
 	go test -v ./...
 
 run:
-	go run privat24go.go
+	go run main.go
 
 .PHONY: build dist clean test run
