@@ -3,4 +3,5 @@ go: 1.3
 
 script:
 - go get -v
+- go get -v github.com/smartystreets/goconvey/convey 
 - go test -v ./...
