@@ -8,39 +8,26 @@ import "strings"
 // @Title Ordering
 // @Description Выписка Privat24 Юр.лицо
 type Ordering struct {
-	ID             int64   `orm:"column(id);auto;pk" json:"id"`
-	NumTransaction string  `orm:"size(255);index;null" json:"numTransaction"` // №
-	PostingDate    string  `orm:"size(10);index;null" json:"postingDate"`     //   Дата проводки
-	TimePosting    string  `orm:"size(8);null" json:"timePosting"`            //   Время проводки
-	Amount         float64 `orm:"null;digits(12);decimals(2)" json:"amount"`  //   Сумма
-	Currency       string  `orm:"size(3);default(UAH)" json:"currency"`       //   Валюта
-	PaymentSrc     string  `orm:"size(255);null" json:"paymentSrc"`           //   Назначение платежа необработаный
-	Payment        string  `orm:"size(255);null" json:"payment"`              //   Назначение платежа
-	EdrpouCompany  int     `orm:"null" json:"edrpouCompany"`                  //   ЕГРПОУ контрагента
-	NameCompany    string  `orm:"size(255);null" json:"nameCompany"`          //   Наименование контрагента
-	AccountCompany int     `orm:"null" json:"accountCompany"`                 //   Счет контрагента
-	MfoCompany     int     `orm:"null" json:"mfoCompany"`                     //   МФО контрагента
-	Reference      string  `orm:"size(255);null" json:"reference"`            //   Референс
-	Invoice        string  `orm:"size(100);null" json:"invoice"`              //   Счет по которому платили(нет поля в выпеске)
-	LiqPay         int     `orm:"null" json:"liqpay"`                         //   LiqPay ID транзакции (нет поля в выпеске)
-	Phone          string  `orm:"size(12);null" json:"phone"`                 //   Номер телефона (нет поля в выпеске)
-	Card           string  `orm:"size(14);null" json:"card"`                  //   Номер карты (нет поля в выпеске)
-	Description    string  `orm:"size(255);null" json:"description"`          //   пояснения при обработке (нет поля в выпеске)
+	ID             int64   `json:"id"`
+	NumTransaction string  `json:"numTransaction"` // №
+	PostingDate    string  `json:"postingDate"`    //   Дата проводки
+	TimePosting    string  `json:"timePosting"`    //   Время проводки
+	Amount         float64 `json:"amount"`         //   Сумма
+	Currency       string  `json:"currency"`       //   Валюта
+	PaymentSrc     string  `json:"paymentSrc"`     //   Назначение платежа необработаный
+	Payment        string  `json:"payment"`        //   Назначение платежа
+	EdrpouCompany  int     `json:"edrpouCompany"`  //   ЕГРПОУ контрагента
+	NameCompany    string  `json:"nameCompany"`    //   Наименование контрагента
+	AccountCompany int     `json:"accountCompany"` //   Счет контрагента
+	MfoCompany     int     `json:"mfoCompany"`     //   МФО контрагента
+	Reference      string  `json:"reference"`      //   Референс
+	Invoice        string  `json:"invoice"`        //   Счет по которому платили(нет поля в выпеске)
+	LiqPay         int     `json:"liqpay"`         //   LiqPay ID транзакции (нет поля в выпеске)
+	Phone          string  `json:"phone"`          //   Номер телефона (нет поля в выпеске)
+	Card           string  `json:"card"`           //   Номер карты (нет поля в выпеске)
+	Description    string  `json:"description"`    //   пояснения при обработке (нет поля в выпеске)
 }
 
-// Created         time.Time `orm:"auto_now_add;type(datetime);null"  json:"created"`                // Дата добавления (нет поля в выпеске)
-// Updated         time.Time `orm:"auto_now;type(datetime);index;null"  json:"updated"`              // Дата обновления (нет поля в выпеске)
-// PostingDateTime time.Time `orm:"auto_now_add;type(datetime);null"  json:"postingDateTimecreated"` // Дата добавления (нет поля в выпеске)
-// PostingDate    time.Time `orm:"type(datetime)" json:"postingDate"`         //   Дата проводки
-// TimePosting    time.Time `orm:"type(datetime)" json:"timePosting"`         //   Время проводки
-// regexp.Compile(`[0-9]+`)
-
-// type Phones struct {
-// 	Phone      string    `orm:"-" json:"phone"`            //   Номер телефона
-
-// }
-
-// Добавляем описание
 func (o *Ordering) AddDescription(src string) {
 	if len(o.Description) > 4 {
 		o.Description = strings.Join([]string{o.Description, src + ";"}, " ")
@@ -48,9 +35,3 @@ func (o *Ordering) AddDescription(src string) {
 		o.Description = src + ";"
 	}
 }
-
-// func (o *Ordering) ParseDataPsting() {
-// 	dt := strings.Join([]string{o.PostingDate, o.TimePosting}, " ")
-// 	o.PostingDateTime = time.Date(2014, month, day, hour, min, sec, nsec, loc)
-// 	// o.PostingDateTime, _ = time.ParseInLocation("29.09.2014 17:50:00", dt, time.UTC)
-// }

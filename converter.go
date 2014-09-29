@@ -10,9 +10,10 @@ import (
 	"github.com/grengojbo/goquery"
 )
 
-// Load Privat24 ordering file -> c2bstatements.xls
-// f - 0: вседанные, 1: только поступления, 2: только выплаты
-// c - true очищать и преобразовывать номера телефонов
+// @Title Загрузка выписки Privat24
+// @Description Load Privat24 ordering file -> c2bstatements.xls
+// @Param f - 0: все данные, 1: только поступления, 2: только выплаты
+// 				c - true очищать и преобразовывать номера телефонов
 func LoadXlsFile(name string, f int, cl bool) (int, []*Ordering, error) {
 	cnt := 0
 	objects := make([]*Ordering, 0)

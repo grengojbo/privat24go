@@ -2,9 +2,25 @@ privat24go [![Coverage Status](https://coveralls.io/repos/grengojbo/privat24go/b
 ====
 
 ## Описание
-Обработка выписок Приват24
+
+Конвертация выписок Приват24 (Excel) в структуру Go
+Структура выписки Privat24 Юр.лицо [Ordering](https://github.com/grengojbo/privat24go/blob/master/ordering.go).
+После обработки можно применить [фильтры](https://github.com/grengojbo/privat24go/blob/master/filters.go) по обработке *Назначение платежа*.
 
 ## Использование
+
+Параметр **name** путь к файлу выписки *c2bstatements*
+Параметр **f** загружать:
+    - 0:  все данные
+    - 1: только поступления
+    - 2: только выплаты
+Параметр **cl** очисть поле *Назначение платежа* от мусора
+<количество записей>, <массив выписки>, <ошибка> := LoadXlsFile(name string, f int, cl bool)
+
+Запуск тестов
+```bash
+$ make test
+```
 
 ## Установка
 

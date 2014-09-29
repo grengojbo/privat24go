@@ -23,10 +23,5 @@ func TestReadXlsFile(t *testing.T) {
 			So(loads, ShouldNotBeNil)
 			So(cnt, ShouldEqual, 0)
 		})
-		// Convey("Преобразование строк Дата и Время в тип DataTime", func() {
-		// 	r := rows[4]
-		// 	So(r.PostingDate, ShouldEqual, "15.09.2014")
-		// 	So(r.TimePosting, ShouldEqual, "14:50:00")
-		// })
 	})
 }
