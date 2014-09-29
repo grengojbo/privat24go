@@ -9,12 +9,6 @@ import (
 	"strings"
 )
 
-// type Pattern string
-
-// func (p Pattern) Compile() (*regexp.Regexp, error) {
-// 	return regexp.Compile(string(p))
-// }
-
 // Преобразуем номер телефона с National в International
 func UpdatePhoneUa(national string) (international string) {
 	re := regexp.MustCompile(`(039|050|063|066|067|068|091|092|093|094|095|096|097|098|099([0-9]{7}){10})`)
@@ -60,13 +54,9 @@ func (t *Ordering) GetCard() (card string, rev int, ok bool) {
 	rev = 100
 	r, _ := regexp.Compile(`ДОСТУПУ (\d+)`)
 	re := regexp.MustCompile(`([0-9]{6,10})`)
-	// r := regexp.MustCompilePOSIX(`[ДОСТУПУ |ДОСТУПУ]([0-9]+)`)
 	f := r.FindStringSubmatch(t.Payment)
 	if len(f) > 0 {
-		// fmt.Println(">>>>>>>>>>", strings.TrimSpace(f[1]))
 		return strings.TrimSpace(f[1]), rev, true
-		// } else {
-		// r := regexp.MustCompilePOSIX(`(00[0-9]{10}|)`)
 	} else {
 		res := re.FindStringSubmatch(t.Payment)
 		if len(res) > 0 {
@@ -99,7 +89,6 @@ func (t *Ordering) GetLiqpay() (res int, ok bool) {
 		}
 		return int(v), true
 	}
-	// res = f[1]
 	return res, ok
 }
 
