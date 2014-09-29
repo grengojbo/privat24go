@@ -35,7 +35,4 @@ clean:
 test:
 	go test -v ./...
 
-run:
-	go run main.go
-
-.PHONY: build dist clean test run
+.PHONY: build dist clean test

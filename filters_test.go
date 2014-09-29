@@ -16,7 +16,6 @@ func TestFiltersFunction(t *testing.T) {
 func TestFilters(t *testing.T) {
 	featureLiqPay := "LIQPAY 42733782DESCR Активацiя послуг Order"
 	featureCardPhone := "НОМЕР IНДИВ КАРТ ДОСТУПУ 0003633872 MOБ ТЕЛ0971234567"
-	// featureCardPhone2 := "НОМЕР IНДИВ КАРТ ДОСТУПУ0003633872 MOБ ТЕЛ 0971234567"
 	Convey("Обработка Назначение платежа", t, func() {
 		_, rows, _ := LoadXlsFile("testdata/c2bstatements.xls", 1, true)
 		r := rows[3]
@@ -43,7 +42,6 @@ func TestFilters(t *testing.T) {
 			So(res, ShouldEqual, "380971234567")
 
 			r := rows[6]
-			// So(r.Payment, ShouldEqual, "sdfdsfgdfs fcbgc")
 			res, ok = r.GetPhone()
 			So(ok, ShouldBeTrue)
 			So(res, ShouldEqual, "380981234567")
