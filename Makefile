@@ -21,7 +21,7 @@ GIT_COMMIT="$(shell git rev-parse HEAD)"
 GIT_DIRTY="$(shell test -n "`git status --porcelain`" && echo "+CHANGES" || true)"
 
 # Add the godep path to the GOPATH
-GOPATH=$(shell godep path):$(shell echo $$GOPATH)
+#GOPATH=$(shell godep path):$(shell echo $$GOPATH)
 
 build:
 	@echo "building ${OWNER} ${BIN_NAME} ${VERSION}"
