@@ -90,7 +90,6 @@ func TestFilters(t *testing.T) {
 			So(ok, ShouldBeTrue)
 			So(rev, ShouldEqual, int(50))
 			So(res, ShouldEqual, "0003601627")
-			So(r.TimePosting, ShouldEqual, "14:50:00")
 
 			rf := rows[2]
 			_, rif, okf := rf.GetCard()
