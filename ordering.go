@@ -21,7 +21,10 @@ type Ordering struct {
 	AccountCompany int     `orm:"null" json:"accountCompany"`                 //   Счет контрагента
 	MfoCompany     int     `orm:"null" json:"mfoCompany"`                     //   МФО контрагента
 	Reference      string  `orm:"size(255);null" json:"reference"`            //   Референс
+	Invoice        string  `orm:"size(100);null" json:"invoice"`              //   Счет по которому платили(нет поля в выпеске)
+	LiqPay         int     `orm:"null" json:"liqpay"`                         //   LiqPay ID транзакции (нет поля в выпеске)
 	Phone          string  `orm:"size(12);null" json:"phone"`                 //   Номер телефона (нет поля в выпеске)
+	Card           string  `orm:"size(14);null" json:"card"`                  //   Номер карты (нет поля в выпеске)
 	Description    string  `orm:"size(255);null" json:"description"`          //   пояснения при обработке (нет поля в выпеске)
 }
 
